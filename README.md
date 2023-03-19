@@ -32,7 +32,7 @@
 ```
 PORT=5000
 NODE_ENV='development'
-XRAPID_API_key='{your API key}'
+XRAPID_API_KEY='{your API key}'
 ```
 
 
