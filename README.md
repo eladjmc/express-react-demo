@@ -1,4 +1,4 @@
-# MERN stack demo App
+# Front and Back demo App
 
 ![plot](./screenshots/diagram.png) 
 
