@@ -50,16 +50,16 @@ XRAPID_API_key='{your API key}'
 <br>
 
 # After running the app it should look like this
-![plot](./screenshots/Screenshot0.png) 
+![plot](./screenshots/screenshot0.png) 
 
-![plot](./screenshots/Screenshot2.png) 
+![plot](./screenshots/screenshot2.png) 
 
-![plot](./screenshots/Screenshot1.png) 
+![plot](./screenshots/screenshot1.png) 
 
-![plot](./screenshots/Screenshot2.png) 
+![plot](./screenshots/screenshot2.png) 
 
 
-![plot](./screenshots/Screenshot3.png) 
+![plot](./screenshots/screenshot3.png) 
 
 
 <br>
