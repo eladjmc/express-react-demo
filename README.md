@@ -1,5 +1,7 @@
 # MERN stack demo App
 
+![plot](./screenshots/diagram.png) 
+
 <hr>
 
 ## In this app im fetching data from weather API from my server and supplying the data to my React Fronend
