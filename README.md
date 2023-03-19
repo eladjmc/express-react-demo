@@ -33,6 +33,8 @@
 PORT=5000
 NODE_ENV='development'
 XRAPID_API_KEY='{your API key}'
+WEATHER_API_URL='https://weatherapi-com.p.rapidapi.com/current.json'
+XR_API_HOST='weatherapi-com.p.rapidapi.com'
 ```
 
 

@@ -7,9 +7,9 @@ dotenv.config({ path: './config/config.env' });
 const app = express();
 
 // Constants for API endpoint and header values
-const WEATHER_API_URL = 'https://weatherapi-com.p.rapidapi.com/current.json';
+const WEATHER_API_URL = process.env.WEATHER_API_URL;
 const XR_API_KEY = process.env.XRAPID_API_KEY;
-const XR_API_HOST = 'weatherapi-com.p.rapidapi.com';
+const XR_API_HOST = process.env.XR_API_HOST;
 
 app.get('/', (req, res) => res.send('Server running'));
 
@@ -29,7 +29,7 @@ app.get('/api/weather', async (req, res) => {
       'X-RapidAPI-Host': XR_API_HOST
     }
   };
-  
+
   try {
     const response = await axios.request(options)
     const weatherData = response.data;
